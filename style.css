@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+   
 }
 
 .hero{
@@ -10,9 +10,7 @@
     height: 100vh;
     background: rgb(207, 241, 241);
 }
-.logo{
-  
-}
+
 
 nav{
     display: flex;
@@ -21,39 +19,58 @@ nav{
     padding: 20px 0;
     align-items: center;
     justify-content: space-around;
+   
 }
 
 nav ul li{
     display: inline-block;
     list-style: none;
-    margin: 10px 20px;
+    margin: 10px 40px;
+    font-family:cursive;
+    font-size:larger;
+ 
 }
 nav ul li a{
     text-decoration: none;
     color: black;
     font-weight: bold;
+    
 }
 
 nav ul li a:hover{
-    color: red;
+  box-shadow: 10px 10px 30px 10px black;
+  padding: 10px;
+  border-radius: 20px;
+  bottom: 40px;
+  left: 45%;
 }
 .detel{
     margin-left: 8%;
     margin-top: 13%;
+    font-family: sans-serif; 
 }
 .detel h1{
     font-size: 50px;
     color: black; 
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 span{
     color: orange;
+    padding: 10px;
+    box-shadow: 10px 10px 50px 10px mediumturquoise;
+    border-radius: 30px;
+}
+span:hover{
+   padding: 10px;
+    
 }
 .detel p{
     color:gray;
-    font-weight: bold; 
-    line-height: 22px;
-    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: large; 
+    line-height: 30px;
+    margin-bottom: 50px;
+      font-family:cursive; 
 }
 .detel a{
     background: black;
@@ -76,7 +93,7 @@ span{
 
 .images{
     width: 50%;
-    height: 100%;
+    height: 90%;
     position: absolute;
     bottom: 0; 
     right: 100px;
@@ -87,7 +104,7 @@ span{
     left: 50%;
     bottom: 0;
     transform: translateX(-30%);
-    transition: bottom 1s,left 1s;
+    transition: bottom 4s,left 4s;
 }
 .images .shape{
     height: 90%;
